@@ -3,7 +3,7 @@ import ActivityButton from '../ActivityButton/ActivityButton';
 
 import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
-import Practice from '../Practice/Practice';
+import Timing from '../Timing/Timing';
 import Profile from '../Profile/Profile';
 import './Gym.css';
 
@@ -20,9 +20,9 @@ const Gym = () => {
 
 
 
-    const [excercisingTime, setExerciseTime] = useState(0);
+    const [excerciseTime, setExerciseTime] = useState(0);
     const handleExeciseTime = (time) => {
-        setExerciseTime(excercisingTime + time);
+        setExerciseTime(excerciseTime + time);
     }
 
     const [breakTime, setBreakTime] = useState(0);
@@ -33,6 +33,8 @@ const Gym = () => {
         localStorage.setItem("break-time", time);
     }
 
+    // load breaktime from localstorage
+
     useEffect(() => {
         let time = localStorage.getItem("break-time");
         if (time) {
@@ -42,9 +44,9 @@ const Gym = () => {
 
 
     return (
-        <div className='gym-section-container'>
+        <div className='gym-practice-container'>
             <div>
-                <div className='practice-section' >
+                <div className='gym-practice' >
                     {
                         practices.map(practice => <Practice practice={practice} key={practice.id} handleExeciseTime={handleExeciseTime}></Practice>)
                     }
@@ -97,7 +99,7 @@ const Gym = () => {
                 <div className='gym-other-info-container'>
                     <Profile></Profile>
                     <Break handelerBreakTime={handelerBreakTime}></Break>
-                    <Exercise excerciseTime={excercisingTime} breakTime={breakTime}></Exercise>
+                    <Exercise excerciseTime={excerciseTime} breakTime={breakTime}></Exercise>
                     <ActivityButton></ActivityButton>
 
                 </div>

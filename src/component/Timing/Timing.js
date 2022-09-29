@@ -1,10 +1,10 @@
 import React from 'react';
-import './Practice.css';
+import './Timing.css';
 
 const Practice = (props) => {
-    const {practice,handleExeciseTime}=props;
-    const {title,desc,img,time} = practice;
-   
+    const { practice, handleExeciseTime } = props;
+    const { title, desc, img, time } = practice;
+
     return (
         <div className='card'>
             <div className='card-image'>
@@ -18,10 +18,10 @@ const Practice = (props) => {
             </div>
 
             <div>
-                <button onClick={()=>handleExeciseTime(time)} className='addtolist-button'>Add To list</button>
+                <button onClick={() => handleExeciseTime(time)} className='addtolist-button'>Add To list</button>
             </div>
         </div>
     );
 };
 
-export default Practice;
+export default Timing;
