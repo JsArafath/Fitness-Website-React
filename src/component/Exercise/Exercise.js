@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css';
 
-const Exercise = ({excerciseTime,breakTime}) => {
+const Exercise = ({ excerciseTime, breakTime }) => {
     return (
         <div className='exercise'>
             <p className='exercise-title'><strong>Exercise Details</strong></p>

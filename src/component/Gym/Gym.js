@@ -18,7 +18,6 @@ const Gym = () => {
     }, []);
 
 
-    // handale addtolist button 
 
     const [excerciseTime, setExerciseTime] = useState(0);
     const handleExeciseTime = (time) => {
@@ -29,11 +28,10 @@ const Gym = () => {
     const handelerBreakTime = (time) => {
         setBreakTime(time);
 
-        // add break time to localstorage
+
         localStorage.setItem("break-time", time);
     }
 
-    // load breaktime from localstorage
 
     useEffect(() => {
         let time = localStorage.getItem("break-time");
