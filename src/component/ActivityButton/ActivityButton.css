@@ -1,16 +1,16 @@
-.activity-button{
-    padding: 10px 40px;
-    width: 100%;
-    margin-top: 30px;
-    cursor: pointer;
-    border-radius: 5px;
+.activity-button {
     border: none;
     font-weight: bold;
-    background-color: black;
+    background-color: rgb(68, 68, 68);
     color: #FFF;
+    padding: 10px 40px;
+    width: 100%;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.activity-button:hover{
-    background-color:#D980FA;
+.activity-button:hover {
+    background-color: #5dcc0d;
     color: #FFF;
 }
