@@ -4,7 +4,7 @@ import ActivityButton from '../ActivityButton/ActivityButton';
 import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
 import Timing from '../Timing/Timing';
-import Profile from '../Profile/Profile';
+import MyProfile from '../MyProfile/MyProfile';
 import './Gym.css';
 
 const Gym = () => {
@@ -18,7 +18,7 @@ const Gym = () => {
     }, []);
 
 
-
+    // handale addtolist button 
 
     const [excerciseTime, setExerciseTime] = useState(0);
     const handleExeciseTime = (time) => {
@@ -29,7 +29,7 @@ const Gym = () => {
     const handelerBreakTime = (time) => {
         setBreakTime(time);
 
-
+        // add break time to localstorage
         localStorage.setItem("break-time", time);
     }
 
@@ -48,7 +48,7 @@ const Gym = () => {
             <div>
                 <div className='gym-practice' >
                     {
-                        practices.map(practice => <Practice practice={practice} key={practice.id} handleExeciseTime={handleExeciseTime}></Practice>)
+                        practices.map(practice => <Timing practice={practice} key={practice.id} handleExeciseTime={handleExeciseTime}></Timing>)
                     }
                 </div>
 
@@ -64,7 +64,6 @@ const Gym = () => {
                                 React make a copy of our Actula DOM.When state or component change, React goes through its virtual DOM, creates a list of those changes that need to be made to the actual DOM and then does it all in one single process
                             </p>
                         </li>
-
 
 
 
@@ -97,7 +96,7 @@ const Gym = () => {
 
             <div className='gym-other-info'>
                 <div className='gym-other-info-container'>
-                    <Profile></Profile>
+                    <MyProfile></MyProfile>
                     <Break handelerBreakTime={handelerBreakTime}></Break>
                     <Exercise excerciseTime={excerciseTime} breakTime={breakTime}></Exercise>
                     <ActivityButton></ActivityButton>

@@ -1,3 +1,16 @@
+.qus-ans-section {
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: rgb(170, 170, 170);
+    color: black;
+    border-radius: 5px;
+
+}
+
+
 .gym-practice-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -23,19 +36,8 @@
     padding: 10px;
 }
 
-.qNa-section {
-    margin-top: 20px;
-    padding: 10px;
-    height: auto;
-    margin-bottom: 20px;
-    background-color: #2980b9;
-    color: #FFF;
-    border-radius: 5px;
-}
 
-.qNa-section small {
-    font-size: 20px;
-}
+
 
 .title {
     text-align: center;

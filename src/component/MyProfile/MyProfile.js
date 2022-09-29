@@ -1,7 +1,7 @@
 import React from 'react';
-import './Profile.css';
+import './MyProfile.css';
 
-const Profile = () => {
+const MyProfile = () => {
     return (
         <div className='profile'>
             <div className='avatar-section'>
@@ -14,11 +14,11 @@ const Profile = () => {
 
             <div className='user-extra-info'>
                 <div>
-                    <p><strong>70kg</strong></p>
+                    <p><strong>55kg</strong></p>
                     <p>Weight</p>
                 </div>
                 <div>
-                    <p><strong>5.7</strong></p>
+                    <p><strong>5.8</strong></p>
                     <p>height</p>
                 </div>
                 <div>
@@ -26,9 +26,9 @@ const Profile = () => {
                     <p>Old</p>
                 </div>
             </div>
-            
+
         </div>
     );
 };
 
-export default Profile;
+export default MyProfile;

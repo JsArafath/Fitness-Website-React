@@ -1,7 +1,7 @@
 import React from 'react';
 import './Timing.css';
 
-const Practice = (props) => {
+const Timing = (props) => {
     const { practice, handleExeciseTime } = props;
     const { title, desc, img, time } = practice;
 
