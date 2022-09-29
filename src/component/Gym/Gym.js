@@ -42,9 +42,9 @@ const Gym = () => {
 
 
     return (
-        <div className='gym-practice-container'>
+        <div className='container-part'>
             <div>
-                <div className='gym-practice' >
+                <div className='practice-section' >
                     {
                         practices.map(practice => <Activities practice={practice} key={practice.id} handleExeciseTime={handleExeciseTime}></Activities>)
                     }
@@ -92,8 +92,8 @@ const Gym = () => {
                 </div>
             </div>
 
-            <div className='gym-other-info'>
-                <div className='gym-other-info-container'>
+            <div className='another-details'>
+                <div className='another-details-container'>
                     <MyProfile></MyProfile>
                     <Break handelerBreakTime={handelerBreakTime}></Break>
                     <Exercise excerciseTime={excerciseTime} breakTime={breakTime}></Exercise>

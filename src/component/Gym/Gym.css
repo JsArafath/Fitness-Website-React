@@ -10,96 +10,65 @@
 
 }
 
+.title {
+    text-align: center;
+    color: rgb(255, 247, 247);
+}
 
-.gym-practice-container {
+.container-part {
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    padding: 0px 20px;
-    gap: 30px;
+    grid-template-columns: 7fr 2fr;
+    padding: 0px 22px;
+    gap: 28px;
     margin-top: 20px;
 }
 
-.gym-practice {
+.practice-section {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 18px;
 }
 
-.gym-other-info {
-    background-color: lightblue;
+.another-details {
+    background-color: rgb(203, 203, 203);
+    border-radius: 8px;
 }
 
 
-.gym-other-info-container {
+.another-details-container {
     position: sticky;
-    top: 0;
     padding: 10px;
+    top: 0;
 }
 
-
-
-
-.title {
-    text-align: center;
-    color: #fff;
-}
 
 /* mobile devices */
-@media screen and (max-width:575px) {
+@media screen and (max-width:569px) {
 
-    .gym-practice-container {
+    .container-part {
         grid-template-columns: auto;
 
     }
 
-    .gym-practice {
+    .practice-section {
         grid-template-columns: auto;
         justify-content: center;
     }
-
-    /* .gym-other-info{
-    width: 300px;
-    margin: 0 auto;
-} */
-
-
 }
 
-/* medium devices */
+/* Tablet devices */
 
+@media screen and (min-width:570px) and (max-width:890px) {
 
-@media screen and (min-width:576px) and (max-width:767px) {
-
-    .gym-practice-container {
+    .container-part {
 
         grid-template-columns: auto;
 
     }
 
-    .gym-practice {
+    .practice-section {
         grid-template-columns: auto auto;
         justify-content: center;
     }
-
-    /* .gym-other-info{
-    width: 620px;
-    margin: 0 auto;
-} */
-
-}
-
-
-@media screen and (min-width:768px) and (max-width:991px) {
-
-    .gym-practice-container {
-        grid-template-columns: auto auto;
-        justify-content: center;
-
-    }
-
-    .gym-practice {
-        grid-template-columns: auto auto;
-    }
-
 
 }

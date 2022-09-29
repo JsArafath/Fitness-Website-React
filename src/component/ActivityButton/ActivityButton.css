@@ -1,7 +1,8 @@
 .activity-button {
     border: none;
     font-weight: bold;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(111, 111, 111);
+
     color: #FFF;
     padding: 10px 40px;
     width: 100%;
@@ -11,6 +12,6 @@
 }
 
 .activity-button:hover {
-    background-color: #5dcc0d;
+    background-color: rgb(42, 161, 208);
     color: #FFF;
 }
