@@ -42,7 +42,7 @@ const Gym = () => {
 
 
     return (
-        <div className='gym-container'>
+        <div className='gym-section-container'>
             <div>
                 <div className='practice-section' >
                     {

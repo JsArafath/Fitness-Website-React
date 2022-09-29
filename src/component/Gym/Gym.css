@@ -1,7 +1,7 @@
 .practice-section {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 25px;
 }
 
 .gym-other-info {
@@ -9,11 +9,12 @@
 }
 
 
-.gym-container {
+.gym-section-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 0px 20px;
-    gap: 30px;
+    padding: 0px 25px;
+    padding-left: 40px;
+    gap: 25px;
     margin-top: 20px;
 }
 
