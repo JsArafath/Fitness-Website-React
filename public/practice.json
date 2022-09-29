@@ -2,42 +2,48 @@
     {
         "key": 1,
         "title": "Side Squats",
-        "desc": "The side to side squats activates several muscle groups simultaneously, working the legs, glutes, and core. The squat in...",
+        "details": "The side to side squats activates several muscle groups simultaneously, working the legs, glutes, and core. The squat in...",
+        "age": "25-30",
         "time": 310,
         "img": "https://i.ibb.co/0CqTBJT/pexels-leon-ardho-1552250.jpg"
     },
     {
         "key": 2,
         "title": "Pull-ups",
-        "desc": "To perform a pullup, hanging onto a pullup bar with your palms facing away from you and your body extended ...",
+        "details": "To perform a pullup, hanging onto a pullup bar with your palms facing away from you and your body extended ...",
+        "age": "25-30",
         "time": 120,
         "img": "https://i.ibb.co/qF11cgH/pexels-tima-miroshnichenko-6389082.jpg"
     },
     {
         "key": 3,
         "title": "Trademil Running",
-        "desc": "One of the most popular types of home exercise equipment is the treadmill, which ...",
+        "details": "One of the most popular types of home exercise equipment is the treadmill, which ...",
+        "age": "25-30",
         "time": 100,
         "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "key": 4,
         "title": "Push Up",
-        "desc": "By raising and lowering the body using the arms, push-ups exercise the pectora...",
+        "details": "By raising and lowering the body using the arms, push-ups exercise the pectora...",
+        "age": "25-30",
         "time": 90,
         "img": "https://images.pexels.com/photos/3837474/pexels-photo-3837474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "key": 5,
         "title": "Dumbbell rows",
-        "desc": "The dumbbell row primarily hits muscles on your back, but also improves core stability, while engaging muscles on your s...",
+        "details": "The dumbbell row primarily hits muscles on your back, but also improves core stability, while engaging muscles on your s...",
+        "age": "25-30",
         "time": 180,
         "img": "https://i.ibb.co/k9QMTkm/pexels-alesia-kozik-7289302.jpg"
     },
     {
         "key": 6,
         "title": "Burpees",
-        "desc": "With burpees, the focus is on a full-body calisthenics workout that aims to build muscle strength and endurance in both ...",
+        "details": "With burpees, the focus is on a full-body calisthenics workout that aims to build muscle strength and endurance in both ...",
+        "age": "25-30",
         "time": 40,
         "img": "https://i.ibb.co/dL7WNtQ/pexels-victor-freitas-703016.jpg"
     }
