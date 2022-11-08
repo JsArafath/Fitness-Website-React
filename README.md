@@ -15,7 +15,7 @@
 
 ## Installation
 
-```bash
+````bash
 # Clone this repository
 $ git clone https://github.com/JsArafath/Fitness-Website-React.git
 
