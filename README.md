@@ -13,7 +13,7 @@
 [https://classy-zabaione-ff8111.netlify.app](https://classy-zabaione-ff8111.netlify.app)
 
 
-## Installation
+### Installation
 
 ````bash
 # Clone this repository
